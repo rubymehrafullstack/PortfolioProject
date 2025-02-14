@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+body {
+  margin: 10px;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+nav ul{
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+footer p{
+margin-top:100px;
+padding : 10px;
+text-align: center;
+}
+
+img
+{
+  height:500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.work div img
+{
+  height:200px;
+  width: 200px;
+  border-radius: 30%;
+  margin-top:30px;
+}
+
+section div p{
+margin-top:100px;
+}
+
+.resume{
+  font-size: larger;
+}
+
+.resume:hover{
+  color:#fd4766;
+}
+
+.btn {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px; 
+  border-radius: 500px;
+  font-weight: 500;
+  background-size: 152% 100%;
+  background: #fd4766;
+  border: 2px solid #fd4766;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
+}
+
+
+
+.content 
+{
+  margin: 50px ;
+  padding:30px;
+  
+}
+
+.content .title {
+  color: #0a0a0a;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  padding-bottom:40px;
+
+}
+
+
+.work
+{
+display:grid;
+grid-template-columns: auto auto;
+grid-column-gap: 100px;
+margin-left:200px;
+margin-right:100px;
+}
+
+#home
+{
+  display:flex;
+  align-content: space-evenly;
+}
+
+
+#about h1, #portfolio h1 , #contact h1
+{
+  text-align:center;
+}
+
+
+
+h1 {
+  color: #1f1f25;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  width: 100%;
+}
+
+#clr1:hover , #clr2:hover
+{
+  color :blueviolet;
+}
+
+
+.social{
+  text-align: center;
+}
+
+.social a i {
+  color:blue;
+  padding:10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  outline: 2px solid #7d2ae8;
+  text-align: center;
+  background:#fd4766;
+  width: 35px;
+  height: 35px;
+  
+
+}
+
+.right
+{
+  text-align: center;
+}
